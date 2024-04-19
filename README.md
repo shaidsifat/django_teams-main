@@ -25,3 +25,4 @@ If you wish to contribute, find any issues, or have suggestions for improvements
 ## License
 This project is licensed under the [MIT License](LICENSE).
    
+# DailyTask
