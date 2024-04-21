@@ -19,9 +19,11 @@ from django.urls import path,include
 from django.contrib.staticfiles.urls import static, staticfiles_urlpatterns
 from django.conf import settings
 
+
 urlpatterns = [
    path('admin/', admin.site.urls),
-   path('', include('projects.urls')),
+   path('projects/', include('projects.urls')),
+   path('', views.projectList, name = 'projects'), 
    path('users/', include('users.urls')), 
 ]
 
